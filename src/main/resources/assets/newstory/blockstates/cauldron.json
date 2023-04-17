@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "full=true" : {"model": "newstory:block/cauldron"},
+    "full=false" : {"model": "newstory:block/water_cauldron"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.mds.newstory.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"NewStoryMixin",
+		"ExampleMixin",
+		"ModEntityDataSaverMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

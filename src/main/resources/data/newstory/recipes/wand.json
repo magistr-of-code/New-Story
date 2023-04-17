@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "miscellaneous",
+  "key" :{
+    "#": {
+      "item": "newstory:dimension_powder"
+    },
+    "@": {
+      "item": "newstory:mangrove_stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "@",
+    " "
+  ],
+  "result": {
+    "item": "newstory:wand"
+  }
+
+}

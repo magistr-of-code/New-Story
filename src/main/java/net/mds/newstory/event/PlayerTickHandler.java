@@ -16,9 +16,9 @@ public class PlayerTickHandler implements ServerTickEvents.StartTick {
     public void onStartTick(MinecraftServer server) {
         tick++;
         for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
-            //IEntityDataSaver dataSaver = ((IEntityDataSaver) player);
-            //ManaData.addMana(dataSaver,1);
-           // player.sendMessage(Text.of(String.valueOf(dataSaver.getPersistentData().getInt("mana"))));
+            IEntityDataSaver dataSaver = ((IEntityDataSaver) player);
+            ManaData.addMana(dataSaver,1);
+            player.sendMessage(Text.of(String.valueOf(dataSaver.getPersistentData().getInt("mana"))));
         }
     }
 }
